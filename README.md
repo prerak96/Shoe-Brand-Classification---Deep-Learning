@@ -12,10 +12,14 @@ The primary objective of the project is to develop a deep learning model capable
 Methodology - 
 
 Data Preprocessing: The dataset undergoes preprocessing steps such as resizing, normalization, and augmentation to prepare it for model training.
+
 Model Architecture: Two approaches are explored for model architecture:
+
 Custom CNN: A custom CNN architecture tailored to the shoe brand classification task is designed and trained from scratch.
 Transfer Learning with InceptionV3: The pre-trained InceptionV3 model, which has been trained on a large-scale image dataset, is fine-tuned for shoe brand classification to leverage its powerful feature extraction capabilities.
+
 Model Training: The models are trained using the prepared dataset, and training hyperparameters are optimized to maximize classification accuracy.
+
 Model Evaluation: The trained models are evaluated on a separate validation dataset to assess their performance in terms of accuracy, precision, recall, and F1-score.
 
 Results - 
